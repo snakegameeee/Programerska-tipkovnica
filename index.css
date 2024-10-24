@@ -164,3 +164,47 @@ footer {
 .contact-button:hover {
   background-color: var(--light-color);
 }
+/* Existing CSS remains unchanged */
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  .feature-cards {
+    flex-direction: column;
+  }
+
+  .feature-card {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .benefit-image {
+    max-width: 100%;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+  }
+
+  .header nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  .cta-button, .contact-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
